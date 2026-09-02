@@ -12,5 +12,5 @@ document.getElementById("bookingForm").addEventListener("submit",function(e){
   const time=document.getElementById("time").value;
   const notes=document.getElementById("notes").value.trim();
   const message=`Namaste, mujhe Home Collection book karna hai.%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Mobile:* ${encodeURIComponent(phone)}%0A*Address:* ${encodeURIComponent(address)}%0A*Service:* ${encodeURIComponent(service)}%0A*Date:* ${encodeURIComponent(date)}%0A*Time:* ${encodeURIComponent(time)}%0A*Notes:* ${encodeURIComponent(notes||"N/A")}`;
-  window.open(`https://wa.me/919876543210?text=${message}`,"_blank");
+  window.open(`https://wa.me/919368167392?text=${message}`,"_blank");
 });
