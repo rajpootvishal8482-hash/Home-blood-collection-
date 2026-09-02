@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeCare Collection | Ghar Baithe Collection Service</title>
+  <meta name="description" content="HomeCare Collection - ghar baithe convenient collection service. Book your home collection online.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#home">
+      <span class="logo-icon">⌂</span>
+      <span><b>HomeCare</b><small>COLLECTION</small></span>
+    </a>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#booking">Book Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="call-top" href="tel:+919876543210">☎ +91 98765 43210</a>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">FAST • SAFE • ON-TIME</p>
+      <h1>Home Collection<br><span>Ab Ghar Baithe,<br>Hum Aapke Paas.</span></h1>
+      <p class="lead">Collection ke liye bahar jaane ki zarurat nahi. Aap booking kijiye, hum aapke ghar par service dene aayenge.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#booking">📅 Book Home Collection</a>
+        <a class="btn whatsapp" href="https://wa.me/919876543210?text=Namaste%2C%20mujhe%20Home%20Collection%20book%20karna%20hai." target="_blank">💬 WhatsApp Us</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ Fast & Reliable</span><span>✓ Safe & Secure</span><span>✓ On-Time Service</span>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="person-icon">🏠</div>
+      <div>
+        <h3>Ghar se hi booking</h3>
+        <p>Simple form bhariye aur hamari team aapse contact karegi.</p>
+      </div>
+      <div class="rating">★ ★ ★ ★ ★<small>Happy Customers</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <p class="eyebrow center">OUR SERVICES</p>
+    <h2>Hum Kya Collect Karte Hain?</h2>
+    <div class="cards">
+      <article class="card"><div class="card-icon">🧪</div><h3>Blood Sample Collection</h3><p>Ghar par blood sample collection ki suvidha.</p></article>
+      <article class="card"><div class="card-icon">🔬</div><h3>Diagnostic Sample</h3><p>Urine, stool, swab ya anya samples ki collection.</p></article>
+      <article class="card"><div class="card-icon">📄</div><h3>Document / Pickup</h3><p>Important documents aur items ka pickup & drop.</p></article>
+      <article class="card"><div class="card-icon">📦</div><h3>Other Collection</h3><p>Aapki zarurat ke hisaab se home collection services.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="booking" class="booking section">
+  <div class="container booking-grid">
+    <div>
+      <p class="eyebrow">EASY BOOKING</p>
+      <h2>Book Your Home Collection</h2>
+      <p>Form bhariye. Booking request WhatsApp par bhejne ke liye button dabaiye.</p>
+      <div class="benefits">
+        <p>🛡️ <b>Safe & Secure</b><br><small>Aapki information ko responsibly handle kiya jayega.</small></p>
+        <p>⏰ <b>On-Time Collection</b><br><small>Preferred time ke according visit arrange karne ki koshish.</small></p>
+      </div>
+    </div>
+    <form id="bookingForm">
+      <input id="name" type="text" placeholder="Your Name" required>
+      <input id="phone" type="tel" placeholder="Mobile Number" required>
+      <input id="address" type="text" placeholder="Full Address" required>
+      <select id="service" required>
+        <option value="">Select Service</option>
+        <option>Blood Sample Collection</option>
+        <option>Diagnostic Sample Collection</option>
+        <option>Document / Pickup Collection</option>
+        <option>Other Home Collection</option>
+      </select>
+      <div class="two">
+        <input id="date" type="date" required>
+        <select id="time" required>
+          <option value="">Preferred Time</option>
+          <option>8 AM - 11 AM</option><option>11 AM - 2 PM</option>
+          <option>2 PM - 5 PM</option><option>5 PM - 8 PM</option>
+        </select>
+      </div>
+      <textarea id="notes" placeholder="Additional Notes (Optional)" rows="3"></textarea>
+      <button class="btn primary full" type="submit">📲 Send Booking on WhatsApp</button>
+      <p class="form-note">* WhatsApp app/web khulne par message send karne ke liye Send dabaiye.</p>
+    </form>
+  </div>
+</section>
+
+<section id="how" class="section">
+  <div class="container">
+    <p class="eyebrow center">HOW IT WORKS</p><h2>Yeh Bahut Aasaan Hai</h2>
+    <div class="steps">
+      <div><b>1</b><h3>Book Karein</h3><p>Form ya WhatsApp se booking karein.</p></div>
+      <div><b>2</b><h3>Hum Aayenge</h3><p>Hamari team preferred time par aayegi.</p></div>
+      <div><b>3</b><h3>Collection Hoga</h3><p>Required item/sample safely collect kiya jayega.</p></div>
+      <div><b>4</b><h3>Complete</h3><p>Collection ke baad confirmation diya jayega.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <div class="container cta-inner">
+    <div><h2>Abhi Home Collection Book Karein</h2><p>Ghar baithe convenient service ka laabh uthayein.</p></div>
+    <div class="hero-buttons">
+      <a class="btn light" href="tel:+919876543210">☎ Call Now</a>
+      <a class="btn whatsapp" href="https://wa.me/919876543210" target="_blank">💬 WhatsApp Now</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><a class="logo footer-logo" href="#home"><span class="logo-icon">⌂</span><span><b>HomeCare</b><small>COLLECTION</small></span></a><p>Ghar baithe convenient collection service.</p></div>
+    <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#services">Services</a><a href="#booking">Book Now</a><a href="#contact">Contact</a></div>
+    <div><h4>Our Services</h4><p>✓ Blood Sample Collection</p><p>✓ Diagnostic Sample</p><p>✓ Document / Pickup</p><p>✓ Other Collection</p></div>
+    <div><h4>Contact Us</h4><p>☎ +91 98765 43210</p><p>✉ info@homecarecollection.com</p><p>📍 Your City, India</p><p>⏰ Mon - Sat: 8 AM - 8 PM</p></div>
+  </div>
+  <div class="copyright">© 2026 HomeCare Collection. All Rights Reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
